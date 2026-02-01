@@ -1,0 +1,12 @@
+# MPVRP-CC Solver - Dépendances Python
+# Installation: pip install -r requirements.txt --break-system-packages
+
+# Solveur MILP
+pulp>=2.7.0
+
+# Optionnel: Solvers additionnels pour améliorer les performances
+# highspy>=1.5.0  # Solver HiGHS (recommandé pour grandes instances)
+# Décommentez si vous voulez installer HiGHS
+
+# Note: CBC est inclus avec PuLP par défaut
+# GLPK peut être installé séparément si nécessaire
